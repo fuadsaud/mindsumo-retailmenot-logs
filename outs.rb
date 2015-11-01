@@ -25,7 +25,7 @@ module Outs
     end
 
     def max(outs)
-      outs.max_by { |_time, reqs| reqs.size }
+      outs.max_by { |_time, reqs| reqs }
     end
 
     def median(enum)
